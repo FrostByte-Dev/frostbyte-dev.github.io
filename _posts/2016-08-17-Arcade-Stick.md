@@ -6,7 +6,7 @@ date: 2016-08-17
 description: For this project I built myself an arcade stick for playing classic arcade games as well
 tags:
 - projects
-image: {{ site.url }}/assets/images/arcadestick.jpg
+image: ./assets/images/arcadestick.jpg
 ---
 
 ![Arcade Stick]({{ site.url }}/assets/images/arcadestick.jpg)
