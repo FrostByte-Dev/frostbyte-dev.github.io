@@ -1,0 +1,201 @@
+/*----------------------------------------------------------------------------*/
+/* General body styles -------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+body {
+    /* Ensures smooth looking fonts */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Maxes the header text on large screens to ensure
+    that ui looks less stretched */
+.mdl-layout__nav-max-width {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/* Max width for the card grid */
+.portfolio-max-width {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* This makes the footer stick to the bottom if there is not enough content
+    to fill the page. */
+.page-content {
+    min-height: calc(100vh - 164px);
+}
+
+/*
+Fixed the menu icon for mobile screens to ensure
+ it aligns properly with the text
+*/
+.mdl-layout__drawer-button .material-icons{
+    line-height: 50px;
+}
+
+.mdl-logo {
+    margin-bottom: 0;
+}
+
+.pagination {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.newer-posts {
+    float: left;
+}
+
+.older-posts {
+    float: right;
+}
+
+/*----------------------------------------------------------------------------*/
+/* General Quality of life styles --------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* ensures that images are responsive, So they don't overflow their container */
+img {
+    max-width: 100%;
+}
+
+/* These are the link styles includes moving the text underline to hover only */
+a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* gives icons in navbar and footer nice spacing */
+.mdl-logo img {
+    margin-right: 10px;
+}
+
+.mdl-card__media {
+    /* Sets a min height to the post cards for a placeholder if no image exists */
+    min-height: 150px;
+
+    /* Regulates the image sizes and hides overflow */
+    max-height: 150px;
+    overflow: hidden;
+
+    /* These attributes center the placeholder image */
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Card styles for posts list ------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* Post card styles */
+.mdl-card__post {
+    /* transition smoothing for hover effects */
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mdl-card__post:hover {
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.14),
+                0 3px 14px 2px rgba(0,0,0,.12),
+                0 5px 5px -3px rgba(0,0,0,.2);
+}
+
+/* Changes padding on the card titles to ensure a smaller gap between title
+    and text. */
+.mdl-card__title {
+    padding: 16px 16px 0 16px;
+}
+
+/* Makes the menu items smaller so they fit better on the screen */
+.mdl-menu__item {
+    height: 30px;
+    line-height: 30px;
+}
+
+/* position the share menu on the right side of the card */
+.mdl-card__post-menu {
+    position: absolute;
+    right: 16px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Styles for post page ------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* change header margins */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 26px 0;
+}
+
+/* Tag Styling */
+.mdl-card__post-tag {
+    position: relative;
+    top: -16px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 5px;
+
+    /* transition smoothing */
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mdl-card__post-tag:hover{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),
+                0 1px 10px 0 rgba(0,0,0,.12),
+                0 2px 4px -1px rgba(0,0,0,.2);
+    text-decoration: none !important;
+}
+
+.mdl-card__post-text {
+    margin: auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Styles for descriptor card ------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/* allows content within the about card to fill the whole card */
+.mdl-grid__about {
+    width: 100%;
+    padding: 0;
+}
+
+.mdl-card__first-media {
+    /* Sets min height to min card height to ensure the background color expands full height */
+    min-height: 200px;
+}
+
+.placeholder {
+    font-size: 64px;
+}

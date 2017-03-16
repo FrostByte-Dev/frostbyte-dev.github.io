@@ -1,7 +1,26 @@
 ---
 layout: default
-title: Jacques Levasseur, I/O Jack
+title: IO Jack
+description: Welcome to my personal blog/portfolio webpage. Here you will find a variety of projects I have worked on that range from pure programming, to server setup and much more.
 ---
-<p>
-	Hello there.
-</p>
+
+<div class="mdl-grid portfolio-max-width">
+    <div class="mdl-cell mdl-card mdl-cell--12-col mdl-shadow--4dp mdl-card__post">
+        <div class="mdl-grid mdl-grid__about mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card__media mdl-color--accent mdl-card__first-media">
+                        <i class="material-icons mdl-color-text--white placeholder">description</i>
+                    </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+                    </div>
+
+                    <div class="mdl-card__supporting-text">
+                        {{ page.description }}
+                    </div>
+                </div>
+        </div>
+    </div>
