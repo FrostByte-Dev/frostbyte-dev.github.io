@@ -35,34 +35,31 @@
                     <div class="mdl-layout-spacer"></div>
                     <!-- Navigation. We hide it in small screens. -->
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
-                        <navigation>
-                        </nav>
-                    </div>
-                </header>
 
-                <!--Sidenav-->
-                <div class="mdl-layout__drawer">
-                    <span class="mdl-layout-title"><a href="#">{{ site.name }}</a></span>
-                    <nav class="mdl-navigation">
-                        <navigation>
-                        </nav>
-                    </div>
+                    </nav>
+                </div>
+            </header>
 
-                    <!--Main Page content-->
-                    <main class="mdl-layout__content">
-                        <div class="page-content">
-                            {{ content }}
+            <!--Sidenav-->
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title"><a href="#">{{ site.name }}</a></span>
+                <nav class="mdl-navigation">
+
+                </nav>
+            </div>
+
+            <!--Main Page content-->
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    {{ content }}
+                </div>
+                <!--Footer-->
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-layout__nav-max-width">
+
+                        <div class="mdl-mini-footer__left-section">
+                            <div class="mdl-logo">{{ site.name }}</div>
                         </div>
-                        <!--Footer-->
-                        <footer class="mdl-mini-footer">
-                            <div class="mdl-layout__nav-max-width">
-
-                                <div class="mdl-mini-footer__left-section">
-                                    <div class="mdl-logo">{{ site.name }}</div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </footer>
             </main>
