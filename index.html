@@ -29,7 +29,11 @@ description: Welcome to my personal blog/portfolio webpage. Here you will find a
 	<div class="mdl-cell mdl-card mdl-cell--4-col mdl-shadow--4dp mdl-card__post">
 
 		<div class="mdl-card__media">
-			<i class="material-icons mdl-color-text--white placeholder">chat</i>
+			{% if post.image == null %}
+				<a href="{{ post.url }}"><img src="{{ post.image }}"></a>
+			{% else %}
+				<i class="material-icons mdl-color-text--white placeholder">chat</i>
+			{% endif %}
 		</div>
 
 		<div class="mdl-card__title">
