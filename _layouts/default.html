@@ -21,19 +21,19 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
             <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.blue-red.min.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400" type="text/css">
-            <link rel="stylesheet" href="<asset "css/styles.css">">
+            <!-- <link rel="stylesheet" href="<asset "css/styles.css">"> -->
 
                 <!-- Ghost outputs important style and meta data with this tag -->
 
             </head>
 
-            <body class="<body_class>">
+            <body class="">
                 <!--Navbar section-->
                 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
                     <header class="mdl-layout__header">
                         <div class="mdl-layout__header-row mdl-layout__nav-max-width">
                             <!-- Title -->
-                            <span class="mdl-layout-title"><a href="<@blog.url>" class="mdl-color-text--white"><@blog.title></a></span>
+                            <span class="mdl-layout-title"><a href="#" class="mdl-color-text--white">{{ page.title }}</a></span>
                             <!-- Add spacer, to align navigation to the right -->
                             <div class="mdl-layout-spacer"></div>
                             <!-- Navigation. We hide it in small screens. -->
@@ -45,7 +45,7 @@
 
                         <!--Sidenav-->
                         <div class="mdl-layout__drawer">
-                            <span class="mdl-layout-title"><a href="<@blog.url>"><@blog.title></a></span>
+                            <span class="mdl-layout-title"><a href="#">{{ page.title }}</a></span>
                             <nav class="mdl-navigation">
                                 <navigation>
                                 </nav>
