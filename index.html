@@ -40,7 +40,7 @@ description: Welcome to my personal blog/portfolio webpage. Here you will find a
 			<p>{{ post.excerpt }}... <a href="{{ post.url }}"> read more</a></p>
 			<span>
 				{{ post.author }}
-				<time class="post-date" datetime="{{ post.date format="YYYY-MM-DD"}}">{{ post.date format="DD MMMM YYYY}}</time>
+				<time class="post-date" datetime="{{ post.date | date: "%Y-%m-%d"}}">{{ post.date | date_to_long_string }}</time>
 			</span>
 		</div>
 	</div>
