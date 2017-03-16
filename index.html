@@ -37,7 +37,7 @@ description: Welcome to my personal blog/portfolio webpage. Here you will find a
 		</div>
 
 		<div class="mdl-card__supporting-text">
-			<p>{{ post.excerpt }}... <a href="{{ post.url }}"> read more</a></p>
+			<p>{{ post.description }}... <a href="{{ post.url }}"> read more</a></p>
 			<span>
 				{{ post.author }}
 				<time class="post-date" datetime="{{ post.date | date: "%Y-%m-%d"}}">{{ post.date | date_to_long_string }}</time>

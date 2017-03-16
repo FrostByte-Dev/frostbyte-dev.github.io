@@ -3,6 +3,7 @@ layout: post
 title: Arcade Stick
 author: Jacques Levasseur
 date: 2016-08-17
+description: For this project I built myself an arcade stick for playing classic arcade games as well
 ---
 
 ![Arcade Stick]({{ site.url }}/assets/images/arcadestick.jpg)
