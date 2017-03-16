@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+<div class="mdl-grid portfolio-max-width">
+    <div class="mdl-cell mdl-card mdl-cell--12-col mdl-shadow--4dp">
+
+        <div class="mdl-card__supporting-text mdl-card__post-text">
+            <h2>{{ page.title }}</h2>
+            {% for tag in post.tags %}
+                <div class="mdl-card__post-tag mdl-color--accent mdl-color-text--white">{{ tag }}</div>
+            {% endfor %}
+
+            {{ content }}
+
+            <section class="author">
+                <h4><a href="{{ site.url }}">{{ post.author }}</a></h4>
+                <p>Read <a href="{{ site.url }}">more posts</a> by this author.</p>
+            </section>
+		<time class="post-date" datetime="{{ post.date | date: "%Y-%m-%d"}}">{{ post.date | date_to_long_string }}</time>
+
+        </div>
+    </div>
+</div>
+
+
 <h1>{{ page.title }}</h1>
 
 {{ content }}
