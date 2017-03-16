@@ -7,7 +7,7 @@ layout: default
         <div class="mdl-card__supporting-text mdl-card__post-text">
             <h2>{{ page.title }}</h2>
             {% for tag in page.tags %}
-                <div class="mdl-card__post-tag mdl-color--accent mdl-color-text--white">{{ tag }}</div>
+                <span class="mdl-card__post-tag mdl-color--accent mdl-color-text--white">{{ tag }}</span>
             {% endfor %}
 
             {{ content }}
