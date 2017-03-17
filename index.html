@@ -25,7 +25,7 @@ description: Welcome to my personal blog/portfolio webpage. Here you will find a
 		</div>
 	</div>
 
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<div class="mdl-cell mdl-card mdl-cell--4-col mdl-shadow--4dp mdl-card__post">
 
 		<div class="mdl-card__media">
@@ -50,4 +50,19 @@ description: Welcome to my personal blog/portfolio webpage. Here you will find a
 	</div>
 	{% endfor %}
 
+</div>
+
+<div class="mdl-grid portfolio-max-width">
+	<nav class="pagination" role="navigation">
+		{% if paginator.previous_page %}
+		<a class="older-posts" href="{{ paginator.previous_page_path }}">Older Posts &rarr;</a>
+		{% endif %}
+
+		{% if paginator.next_page %}
+		<a class="newer-posts" href="{{ paginator.next_page_path }}">&larr; Newer Posts</a>
+		{% endif %}
+
+
+
+	</nav>
 </div>
