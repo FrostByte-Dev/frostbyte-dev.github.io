@@ -3,7 +3,7 @@ layout: post
 title: Unraid NAS
 author: Jacques Levasseur
 date: 2016-11-15
-description: For this project, I built myself a NAS for storing my family's media library (movies, music
+description: To Improve the family movie viewing experience, I built myself a NAS for storing my family's
 tags:
 - projects
 image: /assets/images/wd_red_6tb.jpg
