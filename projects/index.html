@@ -1,0 +1,32 @@
+---
+layout: default
+title: Projects
+description: A list of my project portfolio where you can see all the things i have made as well as read how i went about making them.
+image:
+---
+
+<div class="mdl-grid portfolio-max-width">
+	<div class="mdl-cell mdl-card mdl-cell--12-col mdl-shadow--4dp mdl-card__post">
+		<div class="mdl-grid mdl-grid__about mdl-grid--no-spacing">
+			<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+				<div class="mdl-card__media mdl-color--accent mdl-card__first-media">
+                    {% if page.image == null %}
+					    <i class="material-icons mdl-color-text--white placeholder">local_offer</i>
+                    {% else %}
+                        <img src="{{ page.image }}">
+                    {% endif %}
+				</div>
+			</div>
+
+			<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+				<div class="mdl-card__title">
+					<h2 class="mdl-card__title-text">{{ page.title }}</h2>
+				</div>
+
+				<div class="mdl-card__supporting-text">
+					{{ page.description }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
