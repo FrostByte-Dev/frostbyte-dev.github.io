@@ -61,9 +61,9 @@ image:
                 <a class="newer-posts" href="{{ paginator.next_page_path }}">&larr; Newer Posts</a>
             {% endif %}
 
-            {% paginator.previous_page %}
+            {% if paginator.previous_page %}
                 <a class="older-posts" href="{{ paginator.previous_page_path }}">Older Posts &rarr;</a>
-            {{/if}}
+            {% endif %}
         </nav>
     </div>
 
