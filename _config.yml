@@ -1,4 +1,4 @@
 name: IO Jack
 markdown: kramdown
-paginate: 2
+paginate: 6
 paginate_path: "/projects/page:num/"
