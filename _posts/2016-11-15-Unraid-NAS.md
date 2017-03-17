@@ -3,13 +3,13 @@ layout: post
 title: Unraid NAS
 author: Jacques Levasseur
 date: 2016-11-15
-description: To Improve the family movie viewing experience, I built myself a NAS for storing my family's
+description: For this project, I built myself a NAS for storing my family's media library (movies, music
 tags:
 - projects
 image: /assets/images/wd_red_6tb.jpg
 ---
 
-To Improve the family movie viewing experience, I built myself a NAS for storing my family's media library (movies, music, photos). This also provided me with redundant storage for my own personal files. Seeing as prebuilt NAS devices tend to be either highly underpowered or extremely expensive, I decided to recycle and repurpose some parts I had to save on costs.
+For this project, I built myself a NAS for storing my family's media library (movies, music, photos), as well as provide redundant storage for my own personal files. Seeing as prebuilt NAS devices tend to be either highly underpowered or extremely expensive, I decided to recycle and repurpose some parts I had to save on costs.
 
 ### Materials
 

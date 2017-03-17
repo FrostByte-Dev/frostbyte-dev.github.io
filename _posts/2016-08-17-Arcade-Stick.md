@@ -3,7 +3,7 @@ layout: post
 title: Arcade Stick
 author: Jacques Levasseur
 date: 2016-08-17
-description: For this project I built myself an arcade stick for playing classic arcade games as well
+description: For this project, I built myself an arcade stick for playing classic arcade games as well
 tags:
 - projects
 image: /assets/images/arcadestick.jpg
@@ -11,7 +11,7 @@ image: /assets/images/arcadestick.jpg
 
 ![Arcade Stick]({{ site.url }}/assets/images/arcadestick.jpg)
 
-For this project I built myself an arcade stick for playing classic arcade games as well as the latest fighting games. At the time I wanted an arcade stick to get that classic arcade feeling however I didn't want to break the bank. So I set out to build my own using materials I had laying around the house and only buying parts when needed.
+For this project, I built myself an arcade stick for playing classic arcade games as well as the latest fighting games. At the time I wanted an arcade stick to get that classic arcade feeling however I didn't want to break the bank. So I set out to build my own using materials I had laying around the house and only buying parts when needed.
 
 ### Materials
 
