@@ -56,11 +56,11 @@ Fixed the menu icon for mobile screens to ensure
 }
 
 .newer-posts {
-    float: left;
+    float: right;
 }
 
 .older-posts {
-    float: right;
+    float: left;
 }
 
 /*----------------------------------------------------------------------------*/
