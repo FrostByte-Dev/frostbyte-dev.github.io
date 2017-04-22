@@ -44,72 +44,40 @@ image: /assets/images/me.jpg
 			 <div class="mdl-grid">
 				 <div class="mdl-cell mdl-cell--12-col">
 					 <i class="material-icons material-icons__rotate-180">format_quote</i>
-					 Self-starter, leader and multitasker, striving to persistently exceed expectations.
+					 {{ site.data.resume.basics.summary }}
 					 <i class="material-icons">format_quote</i>
 				 </div>
 			 </div>
+
+			 
 
 			 <div class="mdl-grid">
 				 <div class="mdl-cell--12-col">
 					 <h3><i class="material-icons">work</i>Work</h3>
 				 </div>
 
+				 {% for work in site.data.resume.work %}
+
 				 <div class="mdl-cell--2-col">
-					 May&nbsp;2016 – Sep&nbsp;2016
+					 {{ work.startDate }} – {{ work.endDate }}
 				 </div>
 				 <div class="mdl-cell--10-col">
-					 <h5>IT Systems Assistant • <a target="_blank" href="https://www.ontario.ca/page/ministry-natural-resources-and-forestry" >Ministry of Natural Resources and Forestry</a></h5>
+					 <h5>{{ work.position }} • <a target="_blank" href="{{ work.website }}" >{{ work.company }}</a></h5>
 					 <p>
-						 Part of a team of project managers and business analysts developing a replacement for an end of life legacy system.
+						 {{ work.summary }}
 					 </p>
 					 <ul>
-						 <li>Developed a macro to pre-process and error check source data files into a standardised file format for use by a corporate system.</li>
-						 <li>Updated user documentation including documenting newly developed processes.</li>
-						 <li>Maintained the project data model ensuring parity between the model and the physical database. Included updating model with any changes resulting from development.</li>
-						 <li>Created test case naming convention as well as develop all possible system test cases.</li>
-						 <li>Participated in team/client meetings for requirement gathering and solution development.</li>
-						 <li>Carried out testing of application and processes.</li>
+						 {% for highlight in work.highlights %}
+
+						 <li>{{ highlight }}</li>
+
+						 {% endfor %}
 					 </ul>
 				 </div>
 
+				 {% endfor %}
+
 			 </div>
-
-			 <div class="mdl-grid">
-				<div class="mdl-cell--2-col">
-					Jan&nbsp;2016 – Feb&nbsp;2016
-				</div>
-				<div class="mdl-cell--10-col">
-					<h5>Web Developer (shedman.ca) • <a target="_blank" href="http://shedman.ca" class="company">Shedman Inc.</a></h5>
-					<p>
-						Tasked with upgrading an aging website to be more mobile friendly as well as add new features to improve the user experience.
-					</p>
-					<ul>
-						<li class="text-justify">Developed a responsive site using PHP to attract mobile users and improve SEO results.</li>
-						<li class="text-justify">Simplified navigation to enhance user experience for non tech savvy users.</li>
-						<li class="text-justify">Created a gallery, using PHP and MySQL, with filters to be able to sort and display images based on those criteria.</li>
-						<li class="text-justify">Created an admin page so that the company could upload pictures and select the tags for those pictures.</li>
-					</ul>
-				</div>
-
-			</div>
-
-			<div class="mdl-grid">
-				<div class="mdl-cell--2-col">
-					Jan&nbsp;2012 – Jan&nbsp;2015
-				</div>
-				<div class="mdl-cell--10-col">
-					<h5>Team Lead - Installations • <a target="_blank" href="http://shedman.ca" class="company">Shedman Inc.</a></h5>
-					<p>
-						My role was to lead an installation team to deliver, build and install a variety of customs sheds and garages as well as interact with customer to ensure satisfaction with the product and services received.
-					</p>
-					<ul>
-						<li class="text-justify">Provided excellent service to customers by effective communication and by directing the installation team</li>
-						<li class="text-justify">Handled re-stocking products with heavy machinery</li>
-						<li class="text-justify">Communicated consistently and proactively with installation team to meet tight deadlines</li>
-					</ul>
-				</div>
-
-			</div>
 
 			<div class="mdl-grid">
 				<div class="mdl-cell--12-col">
