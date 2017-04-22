@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Jacques Levasseur",
+    "label": "Programmer",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "https://iojack.com",
+    "summary": "Self-starter, leader and multitasker, striving to persistently exceed expectations.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ministry of Natural Resources and Forestry",
+      "position": "IT Systems Assistant",
+      "website": "https://www.ontario.ca/page/ministry-natural-resources-and-forestry",
+      "startDate": "May 2016",
+      "endDate": "Sep 2016",
+      "summary": "Part of a team of project managers and business analysts developing a replacement for an end of life legacy system.",
+      "highlights": [
+        "Developed a macro to pre-process and error check source data files into a standardised file format for use by a corporate system.",
+        "Updated user documentation including documenting newly developed processes.",
+        "Maintained the project data model ensuring parity between the model and the physical database. Included updating model with any changes resulting from development.",
+        "Created test case naming convention as well as develop all possible system test cases.",
+        "Participated in team/client meetings for requirement gathering and solution development.",
+        "Carried out testing of application and processes."
+      ]
+    },
+    {
+        "company": "Shedman Inc.",
+        "position": "Web Developer (shedman.ca)",
+        "website": "http://shedman.ca",
+        "startDate": "Jan 2016",
+        "endDate": "Feb 2016",
+        "summary": "Tasked with upgrading an aging website to be more mobile friendly as well as add new features to improve the user experience.",
+        "highlights": [
+            "Developed a responsive site using PHP to attract mobile users and improve SEO results.",
+            "Simplified navigation to enhance user experience for non tech savvy users.",
+            "Created a gallery, using PHP and MySQL, with filters to be able to sort and display images based on those criteria.",
+            "Created an admin page so that the company could upload pictures and select the tags for those pictures."
+        ]
+    },
+    {
+        "company": "Shedman Inc.",
+        "position": "Team Lead - Installations",
+        "website": "http://shedman.ca",
+        "startDate": "Jan 2012",
+        "endDate": "Jan 2015",
+        "summary": "My role was to lead an installation team to deliver, build and install a variety of customs sheds and garages as well as interact with customer to ensure satisfaction with the product and services received.",
+        "highlights": [
+            "Provided excellent service to customers by effective communication and by directing the installation team",
+            "Handled re-stocking products with heavy machinery",
+            "Communicated consistently and proactively with installation team to meet tight deadlines"
+        ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Durham College",
+      "area": "Computer Programmer Analyst",
+      "studyType": "Diploma",
+      "startDate": "Aug 2016",
+      "endDate": "May 2019",
+      "gpa": "",
+      "courses": [
+        "Systems development",
+        "Functional, Object Oriented and Structured Programming",
+        "Design Patterns and Mathematics"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "VB"
+      ]
+    },
+    {
+        "name": "Operating Systems",
+        "level": "",
+        "keywords":[
+            "Windows XP/vista/7/8/10/Server",
+            "Linux, Ubuntu (and other similar distros)",
+            "Mac OSX"
+        ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": ""
+    },
+    {
+        "language": "French",
+        "fluency": ""
+    }
+  ],
+  "interests": [],
+  "references": []
+}
