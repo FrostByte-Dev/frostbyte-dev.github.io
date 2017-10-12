@@ -19,13 +19,18 @@ The materials I used for this project included:
 
 * 60% Aluminum keyboard case
 * 60% PCB
-* 60% Aluminum switch plate
+* 60% Aluminum universal switch plate
 * Kailh Box Black switches (x70)
 * Soldering iron and solder
 
 ### The Build
 
-The components were all selected with cost savings in mind thus I repurposed as many things as I could find. I included some cost efficient parts such as a Pentium processor, that would be strong enough for serving files to all members of my family. The OS I decided to use was __Unraid__ as its redundancy implementation allows for a variety of differently sized drives, and for easy storage capacity expansion in the future. This OS fitted my needs perfectly.
+The case used was a fully aluminum 60% form factor with blockers in the bottom left and right corners which gave the board a very solid and 
+premium feeling as well as a bit of custom flair in the corners. The Kailh box black switches were used as they are very smooth linear switches 
+with very little key wobble. As these are linear switches they only make sound when the key bottoms out and comes back up to rest which coupled 
+with a very solid board gives for a fairly quiet keyboard on par if not quieter then most standard membrane keyboards found in most offices. The 
+PCB used is loaded with qmk firmware, which is an open source keyboard firmware which allows you to program your layout any way you want. This is 
+especially handy in smaller form factors that are missing keys that you may still need on the odd occasion.
 
 ### Conclusion
 
