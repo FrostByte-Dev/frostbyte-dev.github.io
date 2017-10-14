@@ -3,7 +3,7 @@ layout: post
 title: Mechanical Keyboards
 author: Jacques Levasseur
 date: 2017-10-12
-description: To improve the home entertainment experience, I built myself a NAS for storing my family's media
+description: To get the best typing experience possible, I decided to delve into the wide world of
 tags:
 - projects
 image: /assets/images/wd_red_6tb.jpg
