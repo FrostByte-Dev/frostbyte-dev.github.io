@@ -24,6 +24,20 @@
   },
   "work": [
     {
+      "company": "Trillium College",
+      "position": "Web/Application Developer",
+      "website": "https://www.trilliumcollege.ca",
+      "startDate": "April 2017",
+      "endDate": "Present",
+      "summary": "Main developer tasked with maintaining and creating systems to help meet new/existing business needs.",
+      "highlights": [
+        "Developed automated scripts to integrate internal systems with 3rd party software.",
+        "Maintained and updated internal legacy websites. Included adding/updating features to meet new business needs/requirements.",
+        "Lead meetings to gather requirements and discuss possible solutions.",
+        "Carried out testing of new features and scripts prior to their deployment."
+      ]
+    },
+    {
       "company": "Ministry of Natural Resources and Forestry",
       "position": "IT Systems Assistant",
       "website": "https://www.ontario.ca/page/ministry-natural-resources-and-forestry",
@@ -52,37 +66,10 @@
             "Created a gallery, using PHP and MySQL, with filters to be able to sort and display images based on those criteria.",
             "Created an admin page so that the company could upload pictures and select the tags for those pictures."
         ]
-    },
-    {
-        "company": "Shedman Inc.",
-        "position": "Team Lead - Installations",
-        "website": "http://shedman.ca",
-        "startDate": "Jan 2012",
-        "endDate": "Jan 2015",
-        "summary": "My role was to lead an installation team to deliver, build and install a variety of customs sheds and garages as well as interact with customer to ensure satisfaction with the product and services received.",
-        "highlights": [
-            "Provided excellent service to customers by effective communication and by directing the installation team",
-            "Handled re-stocking products with heavy machinery",
-            "Communicated consistently and proactively with installation team to meet tight deadlines"
-        ]
     }
   ],
   "volunteer": [],
-  "education": [
-    {
-      "institution": "Durham College",
-      "area": "Computer Programmer Analyst",
-      "studyType": "Diploma",
-      "startDate": "Aug 2016",
-      "endDate": "May 2019",
-      "gpa": "",
-      "courses": [
-        "Systems development",
-        "Functional, Object Oriented and Structured Programming",
-        "Design Patterns and Mathematics"
-      ]
-    }
-  ],
+  "education": [],
   "awards": [],
   "publications": [],
   "skills": [
@@ -95,7 +82,8 @@
         "Javascript",
         "PHP",
         "MySQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "MSSQL"
       ]
     },
     {
@@ -104,17 +92,9 @@
       "keywords": [
         "C",
         "C++",
-        "VB"
+        "VB",
+        "C#"
       ]
-    },
-    {
-        "name": "Operating Systems",
-        "level": "",
-        "keywords":[
-            "Windows XP/vista/7/8/10/Server",
-            "Linux, Ubuntu (and other similar distros)",
-            "Mac OSX"
-        ]
     }
   ],
   "languages": [
