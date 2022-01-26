@@ -25,10 +25,21 @@
   "work": [
     {
       "company": "Trillium College",
-      "position": "Computer Programmer",
+      "position": "Senior Application Developer",
+      "website": "https://www.trilliumcollege.ca",
+      "startDate": "April 2021",
+      "endDate": "Present",
+      "summary": "Senior developer tasked with leading a team in maintining and creating systems to help meet new/existing business needs.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "Trillium College",
+      "position": "Web/Application Developer",
       "website": "https://www.trilliumcollege.ca",
       "startDate": "April 2017",
-      "endDate": "Present",
+      "endDate": "April 2021",
       "summary": "Main developer tasked with maintaining and creating systems to help meet new/existing business needs.",
       "highlights": [
         "Developed automated scripts to integrate internal systems with 3rd party software.",
@@ -80,18 +91,14 @@
         "HTML",
         "CSS",
         "Javascript",
-        "PHP",
-        "MySQL",
-        "PostgreSQL",
-        "MSSQL"
+        "SQL", 
+        "Blazor"
       ]
     },
     {
       "name": "Software Development",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
         "VB",
         "C#"
       ]
