@@ -29,9 +29,11 @@
       "website": "https://www.trilliumcollege.ca",
       "startDate": "April 2021",
       "endDate": "Present",
-      "summary": "Senior developer tasked with leading a team in maintining and creating systems to help meet new/existing business needs.",
+      "summary": "Senior developer tasked with leading a team in maintaining and creating systems to help meet new/existing business needs.",
       "highlights": [
-        ""
+        "Oversaw the development of new internal websites to replace aging legacy systems.",
+        "Led a team in implementing new cutting edge software frameworks.",
+        "Implemented project management tools for better visibility of completed tasks across the team."
       ]
     },
     {
@@ -100,7 +102,8 @@
       "level": "",
       "keywords": [
         "VB",
-        "C#"
+        "C#",
+        ".NET"
       ]
     }
   ],
