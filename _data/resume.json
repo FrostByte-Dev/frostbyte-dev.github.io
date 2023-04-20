@@ -24,11 +24,24 @@
   },
   "work": [
     {
+      "company": "RBC",
+      "position": "Senior Full Stack Developer",
+      "website": "rbc.com",
+      "startDate": "June 2022",
+      "endDate": "Present",
+      "summary": "Senior full stack developer tasked with maintaining and creating automations to optimize the work flow.",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
       "company": "Trillium College",
       "position": "Senior Application Developer",
       "website": "https://www.trilliumcollege.ca",
       "startDate": "April 2021",
-      "endDate": "Present",
+      "endDate": "June 2022",
       "summary": "Senior developer tasked with leading a team in maintaining and creating systems to help meet new/existing business needs.",
       "highlights": [
         "Oversaw the development of new internal websites to replace aging legacy systems.",
